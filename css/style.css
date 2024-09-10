@@ -6,3 +6,7 @@
 .btn{
     background-color: var(--main-color);
 }
+
+input[type="checkbox"], label, .row{
+    cursor: pointer;
+}
