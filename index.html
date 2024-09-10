@@ -18,14 +18,16 @@
             <div class="d-grid gap-2">
                 <input type="submit" value="Adicionar Item" class="btn btn-danger rounded-4">
             </div>
-            <div class="container my-5 border" id="item-box">
-                <div class="form-check row">
-                    <div class="col"><input type="checkbox" class="form-check-input rounded-circle" id="list-item"></div>
-                    <div class="col"><label for="list-item">Product Name</label></div>
-                    <div class="col"><i class="bi bi-trash"></i></div>
+            <div class="container my-5 border p-0" id="item-box">
+              <div class="row p-3 border m-2"> 
+                <div class="col d-flex gap-2 ">
+                  <input type="checkbox" class="form-check-input rounded-circle form-control-md" name="list-item">
+                  <label for="list-item">Product Name</label>
                 </div>
-                    
-                
+                <div class="col-1">
+                  <i class="bi bi-trash"></i>
+                </div>
+              </div>
             </div>
         </form>
     </div>
