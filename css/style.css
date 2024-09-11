@@ -16,8 +16,9 @@
 }
 
 #item-box{
+    overflow-x: hidden;
     overflow-y: scroll;
-    max-height: 400px;
+    max-height: 550px;
 }
 
 input[type="checkbox"], label, .bi-trash{
