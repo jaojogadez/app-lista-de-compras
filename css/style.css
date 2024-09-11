@@ -3,10 +3,58 @@
     --secondary-color: #111827;
 }
 
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--main-color);
+}
+
 .btn{
     background-color: var(--main-color);
 }
 
-input[type="checkbox"], label, .row{
+#item-box{
+    overflow-y: scroll;
+    max-height: 400px;
+}
+
+input[type="checkbox"], label, .bi-trash{
     cursor: pointer;
 }
+
+.bi-trash:hover{
+    color: var(--main-color); 
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    animation: translate .5s forwards;
+}
+
+@keyframes appear {
+    from{
+        opacity: 0.5;
+        transform: scale(0.5);
+    }
+    
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes translate {
+    from{
+        opacity: 0.5;
+        transform: translateX(100px);
+    }
+    
+    to{
+        opacity: 1;
+        transform:translateX(0%);
+    }
+}
+
