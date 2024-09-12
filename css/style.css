@@ -77,10 +77,10 @@ input[type="checkbox"], label, .bi-trash{
     }
 }
 
-@media screen and (min-width: 768px) {
-    body{
-        background-color: aqua !important;
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    #main-container{
+        
+        min-height: 750px !important;
     }
-    
-}
-
+ }
