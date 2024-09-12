@@ -11,6 +11,16 @@
     background-color: var(--main-color);
 }
 
+
+#main-container{
+    min-height: 100vh !important; 
+ 
+}
+.container-fluid{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
 .btn{
     background-color: var(--main-color);
 }
@@ -18,7 +28,7 @@
 #item-box{
     overflow-x: hidden;
     overflow-y: scroll;
-    max-height: 550px;
+    max-height: 320px;
 }
 
 input[type="checkbox"], label, .bi-trash{
@@ -32,7 +42,15 @@ input[type="checkbox"], label, .bi-trash{
 .row{
     display: flex;
     align-items: center;
-    animation: translate .5s forwards;
+    transition: .3s ease;
+    animation: translate .5s;
+}
+.row:hover{
+    transform: scale(1.05);
+}
+.checked{
+    transform: scale(0.9);
+    background-color:  rgb(231, 231, 231);
 }
 
 @keyframes appear {
@@ -57,5 +75,12 @@ input[type="checkbox"], label, .bi-trash{
         opacity: 1;
         transform:translateX(0%);
     }
+}
+
+@media screen and (min-width: 768px) {
+    body{
+        background-color: aqua !important;
+    }
+    
 }
 
