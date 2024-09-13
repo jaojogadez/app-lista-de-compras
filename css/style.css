@@ -53,6 +53,9 @@ input[type="checkbox"], label, .bi-trash{
     background-color:  rgb(231, 231, 231);
 }
 
+.bi-cart4{
+    color: var(--main-color);
+}
 
 @keyframes appear {
     from{
