@@ -11,6 +11,7 @@ form.onsubmit = (e) => {
     // cria uma 'row'
     const newRow = document.createElement("div") 
     newRow.classList.add("row", "p-3", "m-3", "shadow", "rounded-3")
+    newRow.setAttribute("draggable", "true")
     qtndListItem++
     
     if(qtndListItem != 0){
@@ -70,5 +71,9 @@ form.onsubmit = (e) => {
     box.appendChild(newRow)
     input.value = ""
     console.log(qtndListItem)
+
 }
 
+new Sortable(box, {
+    animation: 350
+})

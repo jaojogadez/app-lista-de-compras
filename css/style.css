@@ -53,6 +53,7 @@ input[type="checkbox"], label, .bi-trash{
     background-color:  rgb(231, 231, 231);
 }
 
+
 @keyframes appear {
     from{
         opacity: 0.5;
@@ -64,7 +65,7 @@ input[type="checkbox"], label, .bi-trash{
         transform: scale(1);
     }
 }
-
+/* 
 @keyframes translate {
     from{
         opacity: 0.5;
@@ -75,7 +76,7 @@ input[type="checkbox"], label, .bi-trash{
         opacity: 1;
         transform:translateX(0%);
     }
-}
+} */
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
