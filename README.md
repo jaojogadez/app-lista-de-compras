@@ -2,6 +2,9 @@
 
 Uma aplicação simples para gerenciar sua lista de compras de forma prática.
 
+![Template Projeto (2)](https://github.com/user-attachments/assets/f98bfb84-0a74-4b0f-ac79-2bd79e7653ff)
+
+
 ## ✨ Funcionalidades
 
 * ➕ Adicionar itens à lista de compras.
@@ -44,10 +47,6 @@ cd app-lista-de-compras
 4. ✅ Para marcar um item como concluído, clique na caixa de seleção ao lado do item.
 5. 🗑️ Para remover um item, clique no ícone de lixeira.
 6. 🔄 Arraste e solte os itens para reordená-los.
-
-## 🖼️ Imagens do Projeto
-
-(Adicione aqui screenshots do projeto para melhor visualização.)
 
 ## 📚 Documentação da API
 
